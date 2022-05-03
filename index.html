@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project M3</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <img src="./image/bank.svg" alt="">
+
+        <ul>
+            <li class="bank">БАНК</li>
+            <li>БИЗНЕС</li>
+            <li>ИНВЕСТИЦИИ</li>
+            <li>СТРАХОВАНИЕ</li>
+            <li>МОБАЙЛ</li>
+            <li>ПУТЕШЕСТВИЯ</li>
+            <li>РАЗВЛЕЧЕНИЯ</li>
+
+        </ul>
+        <button class="login">ВОЙТИ </button>
+    </header>
+
+    <div class="container">
+        <h1>Конвертер валют онлайн</h1>
+        <div class="part">
+            <div class="left">
+                <h4>У меня есть</h4>
+                <div class="btn">
+                    <button class="active">RUB</button>
+                    <button class="normal">USD</button>
+                    <button class="normal">EUR</button>
+                    <button class="normal">GBP</button>
+                </div>
+
+                <div class="partList">
+                    <input type="text" value="0" onfocus="this.value=''" class="first input">
+                    <p></p>
+                </div>               
+            </div>
+
+            <div class="right">
+                <h4>Хочу приобрести</h4>
+                <div class="btn">
+                    <button class="normal">RUB</button>
+                    <button class="active">USD</button>
+                    <button class="normal">EUR</button>
+                    <button class="normal">GBP</button>
+                </div>
+
+                <div class="partList">
+                    <input type="text" value="0" onfocus="this.value=''" class="second input">
+                    <p></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

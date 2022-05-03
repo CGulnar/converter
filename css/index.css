@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #F5F5F6;
+    justify-content: space-between;
+    padding-right: 102px;
+}
+
+
+.bank{
+  color: #000000;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 17px 0 14px 64px;
+    font-size: 11px;
+    color: #959BA4;;
+    gap: 20px;
+}
+
+
+header img {
+    margin: 15px 0 12px 100px;
+}
+
+.login {
+    width: 58px;
+    height: 33px;
+    margin: 9px 102px 8px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color:#000000;
+    font-size: 11px;
+}
+
+.container {
+    margin: 70px 253px 0 253px;
+}
+
+.part {
+    gap: 124px;
+    margin-top: 33px;
+    display: flex;
+    flex-direction: row;
+}
+
+.partList {
+    border: 1px solid #C6C6C6;
+    width: 259px;
+    height: 102px;
+    margin-top: 22px;
+    border-radius: 3px;
+}
+
+.partList p{
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    width: 230px;
+    height: 30px;
+    padding: 10px;
+    border-style: none;
+    margin: 20px 10px 0 0;
+    color: #9F9F9F;
+    font-size: 12px;
+}
+
+h4 {
+    color: #9F9F9F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 0;
+    margin-top: 5px;
+}
+
+button {
+    width: 65px;
+    height: 30px;
+    background-color: #FFF;
+    border: 1px solid #C6C6C6;
+    outline-style: none;
+    color: #C6C6C6;
+    margin-right: -5px;
+}
+
+
+.btn :first-child {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.btn :last-child {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+button:hover {
+    background-color: #833AE0;
+    color: #FFF;
+    border-color: #833AE0;
+}
+
+.active{
+    background-color: #833AE0;
+    color: #FFF;
+}
+
+input {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    border: none;
+    outline-style: none;
+    width: 220px;
+    height: 38px;
+    color: #000000;
+    margin: 11px 0 0 14px;
+}
+
